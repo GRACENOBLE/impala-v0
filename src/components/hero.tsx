@@ -7,7 +7,7 @@ const Hero = () => {
   return (
     <>
       {/* Content */}
-      <div className="min-h-screen flex flex-col pb-6">
+      <div className="min-h-[500px] border-b flex flex-col pb-6">
         <div className="flex-grow py-24 lg:py-32  flex flex-col justify-center">
           <div className="mt-0 max-w-4xl w-full text-center mx-auto px-4 sm:px-6 lg:px-8">
             <div className="mb-4 flex justify-center items-center">
@@ -47,9 +47,9 @@ const Hero = () => {
           </div>
           {/* End Search */}
         </div>
-        <footer className="mt-auto max-w-4xl text-center mx-auto px-4 sm:px-6 lg:px-8">
+        {/* <footer className="mt-auto max-w-4xl text-center mx-auto px-4 sm:px-6 lg:px-8">
           <p className="text-xs text-muted-foreground">© 2025 Acme Inc.</p>
-        </footer>
+        </footer> */}
       </div>
       {/* End Content */}
     </>
