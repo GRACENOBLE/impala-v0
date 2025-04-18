@@ -18,9 +18,9 @@ import {
 } from "lucide-react";
 import Container from "./common/container";
 
-const ChoiceCards = () => {
+const Services = () => {
   return (
-    <section className="py-16 bg-muted/50 min-h-[700px]">
+    <section className="py-16 bg-muted/50">
       <Container>
         <div className="container px-4 md:px-6">
           <div className="flex flex-col items-center justify-center space-y-4 text-center">
@@ -55,25 +55,25 @@ const ChoiceCards = () => {
                   value: "delivery",
                   services: [
                     {
-                      icon: <Truck size={16} />,
+                      icon: <Truck size={24} strokeWidth={1}/>,
                       title: "Heavy Loads",
                       description:
                         "Containers, vehicles, industrial goods, and bulk cargo transportation.",
                     },
                     {
-                      icon: <Warehouse size={16} />,
+                      icon: <Warehouse size={24} strokeWidth={1}/>,
                       title: "Building Materials",
                       description:
                         "Construction materials, workshop supplies, and bulk restocking.",
                     },
                     {
-                      icon: <Box size={16} />,
+                      icon: <Box size={24} strokeWidth={1}/>,
                       title: "Mid-Loads & Fragile Cargo",
                       description:
                         "Appliances, furniture, fragile items, and event equipment.",
                     },
                     {
-                      icon: <Package size={16} />,
+                      icon: <Package size={24} strokeWidth={1}/>,
                       title: "Regular Fulfillment",
                       description:
                         "Documents, gifts, perishables, and e-commerce orders.",
@@ -84,13 +84,13 @@ const ChoiceCards = () => {
                   value: "movers",
                   services: [
                     {
-                      icon: <Home size={16} />,
+                      icon: <Home size={24} strokeWidth={1}/>,
                       title: "Home Movers",
                       description:
                         "Professional relocation services for your home with skilled professionals.",
                     },
                     {
-                      icon: <Briefcase size={16} />,
+                      icon: <Briefcase size={24} strokeWidth={1}/>,
                       title: "Business Movers",
                       description:
                         "Seamless office relocation services for businesses of all sizes.",
@@ -101,7 +101,7 @@ const ChoiceCards = () => {
                   value: "mobility",
                   services: [
                     {
-                      icon: <Truck size={16} />,
+                      icon: <Truck size={24} strokeWidth={1}/>,
                       title: "Vehicle Sharing",
                       description:
                         "Transport solutions for groups of 12 or more passengers.",
@@ -162,4 +162,4 @@ function ServiceCard({ icon, title, description }: ServiceCardProps) {
   );
 }
 
-export default ChoiceCards;
+export default Services;
